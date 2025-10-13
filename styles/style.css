@@ -91,6 +91,7 @@ body {
     padding: 18px 0;
     max-width: 480px;
     width: 100%;
+    color: var(--colors-white);
 }
 
 .main__search-input::placeholder {
