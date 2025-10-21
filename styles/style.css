@@ -43,10 +43,14 @@ body {
     color: var(--colors-white);
 }
 
+.header__change-theme {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
-
-.header__change-theme-icon svg {
-    margin-bottom: -2px;
+.header__change-theme-icon img {
+    display: flex;
 }
 
 .header__change-theme-text {
@@ -157,7 +161,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
 
-    
+
     gap: 48px;
 }
 
