@@ -19,16 +19,12 @@
 <body>
     <header class="header">
         <div class="container">
-            <a href="#" class="header__title">Where in the world?</a>
+            <h1 class="header__title">Where in the world?</h1>
             <div href="#" class="header__change-theme">
-                <span class="header__change-theme-icon"><svg width="16" height="15" viewBox="0 0 16 15" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M11.0904 0.0362357C11.2368 0.0977502 11.3423 0.229567 11.3716 0.384818L11.9545 3.54549L15.1152 4.12549C15.2704 4.15478 15.4022 4.26023 15.4638 4.4067C15.5253 4.55316 15.5077 4.72013 15.4169 4.85195L13.592 7.5L15.4169 10.1451C15.5077 10.2769 15.5253 10.4439 15.4638 10.5904C15.4022 10.7368 15.2704 10.8423 15.1152 10.8716L11.9545 11.4545L11.3716 14.6152C11.3423 14.7704 11.2368 14.9022 11.0904 14.9638C10.9439 15.0253 10.7769 15.0077 10.6451 14.9169L8 13.092L5.35487 14.9169C5.22306 15.0077 5.05609 15.0253 4.90963 14.9638C4.76316 14.9022 4.65771 14.7704 4.62842 14.6152L4.04549 11.4545L0.884818 10.8716C0.729567 10.8423 0.59775 10.7368 0.536236 10.5904C0.474721 10.4439 0.492297 10.2769 0.583104 10.1451L2.40804 7.5L0.583104 4.85487C0.492297 4.72306 0.474721 4.55609 0.536236 4.40963C0.59775 4.26316 0.729567 4.15771 0.884818 4.12842L4.04549 3.54549L4.62842 0.384818C4.65771 0.229567 4.76316 0.0977502 4.90963 0.0362357C5.05609 -0.0252788 5.22306 -0.00770325 5.35487 0.0831039L8 1.90804L10.6451 0.0831039C10.7769 -0.00770325 10.9439 -0.0252788 11.0904 0.0362357ZM5.18791 7.5C5.18791 6.75419 5.48418 6.03892 6.01155 5.51155C6.53892 4.98418 7.25419 4.68791 8 4.68791C8.74581 4.68791 9.46108 4.98418 9.98845 5.51155C10.5158 6.03892 10.8121 6.75419 10.8121 7.5C10.8121 8.24581 10.5158 8.96108 9.98845 9.48845C9.46108 10.0158 8.74581 10.3121 8 10.3121C7.25419 10.3121 6.53892 10.0158 6.01155 9.48845C5.48418 8.96108 5.18791 8.24581 5.18791 7.5ZM11.7495 7.5C11.7495 6.50558 11.3544 5.55189 10.6513 4.84873C9.94811 4.14557 8.99442 3.75054 8 3.75054C7.00558 3.75054 6.05189 4.14557 5.34873 4.84873C4.64557 5.55189 4.25054 6.50558 4.25054 7.5C4.25054 8.49442 4.64557 9.44811 5.34873 10.1513C6.05189 10.8544 7.00558 11.2495 8 11.2495C8.99442 11.2495 9.94811 10.8544 10.6513 10.1513C11.3544 9.44811 11.7495 8.49442 11.7495 7.5Z"
-                            fill="white" />
-                    </svg>
+                <span class="header__change-theme-icon">
+                    <img src="images/light.svg" alt="light-theme">
                 </span>
-                <span class="header__change-theme-text">Light Mode</span>
+                <p class="header__change-theme-text">Light Mode</p>
             </div>
         </div>
     </header>
@@ -37,21 +33,15 @@
         <div class="container">
             <div class="main__actions">
                 <search class="main__search">
-                    <div class="main__search-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M12.5 11.25H11.7L11.4 10.95C12.4 9.85 13 8.35 13 6.75C13 3.15 10.1 0.25 6.5 0.25C2.9 0.25 0 3.15 0 6.75C0 10.35 2.9 13.25 6.5 13.25C8.1 13.25 9.6 12.65 10.7 11.65L11 11.95V12.75L16 17.75L17.5 16.25L12.5 11.25ZM6.5 11.25C4 11.25 2 9.25 2 6.75C2 4.25 4 2.25 6.5 2.25C9 2.25 11 4.25 11 6.75C11 9.25 9 11.25 6.5 11.25Z"
-                                fill="white" />
-                        </svg></div>
+                    <div class="main__search-icon">
+                        <img src="images/search.svg" alt="search">
+                    </div>
                     <input type="text" placeholder="Search for a country…" class="main__search-input">
                 </search>
                 <div class="main__select-inner">
-                    <div class="main__select" id="select"> Filter by Region <span><svg width="9" height="6" viewBox="0 0 9 6"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M7.95 0.375L4.5 3.825L1.05 0.375L0 1.425L4.5 5.925L9 1.425L7.95 0.375Z"
-                                    fill="white" />
-                            </svg></span>
+                    <div class="main__select" id="select"> Filter by Region <span>
+                        <img src="images/arrow.svg" alt="arrow">
+                        </span>
                     </div>
                     <ul id="options" class="main__select-list ">
                         <li value="africa">Africa</li>
@@ -68,10 +58,10 @@
                         <img class="main__country-flag-image" src="images/germany.svg.png" alt="Флаг">
                     </div>
                     <div class="main__country-description">
-                        <div class="main__country-title">Germany</div>
-                        <div class="main__country-population"><span>Population:</span> 81,770,900</div>
-                        <div class="main__country-region"><span>Region:</span> Europe</div>
-                        <div class="main__country-capital"><span>Capital:</span> Berlin</div>
+                        <h2 class="main__country-title">Germany</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 81,770,900</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Europe</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Berlin</h3>
                     </div>
                 </li>
                 <li class="main__country">
@@ -79,10 +69,10 @@
                         <img class="main__country-flag-image" src="images/usa.png" alt="Флаг">
                     </div>
                     <div class="main__country-description">
-                        <div class="main__country-title">United States of America</div>
-                        <div class="main__country-population"><span>Population:</span> 323,947,000</div>
-                        <div class="main__country-region"><span>Region:</span> Americas</div>
-                        <div class="main__country-capital"><span>Capital:</span> Washington, D.C.</div>
+                        <h2 class="main__country-title">United States of America</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 323,947,000</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Americas</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Washington, D.C.</h3>
                     </div>
                 </li>
                 <li class="main__country">
@@ -90,8 +80,8 @@
                         <img class="main__country-flag-image" src="images/brasil.png" alt="Флаг">
                     </div>
                     <div class="main__country-description">
-                        <div class="main__country-title">Brazil</div>
-                        <div class="main__country-population"><span>Population:</span> 206,135,893</div>
+                        <h2 class="main__country-title">Brazil</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 206,135,893</h3>
                         <div class="main__country-region"><span>Region:</span> Americas</div>
                         <div class="main__country-capital"><span>Capital:</span> Brasilia</div>
                     </div>
