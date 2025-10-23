@@ -1,1 +1,150 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <script defer src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Countries</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Where in the world?</h1>
+            <div href="#" class="header__change-theme">
+                <span class="header__change-theme-icon">
+                    <img src="images/light.svg" alt="light-theme">
+                </span>
+                <p class="header__change-theme-text">Light Mode</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__actions">
+                <search class="main__search">
+                    <div class="main__search-icon">
+                        <img src="images/search.svg" alt="search">
+                    </div>
+                    <input type="text" placeholder="Search for a country…" class="main__search-input">
+                </search>
+                <div class="main__select-inner">
+                    <div class="main__select" id="select"> Filter by Region <span>
+                        <img src="images/arrow.svg" alt="arrow">
+                        </span>
+                    </div>
+                    <ul id="options" class="main__select-list ">
+                        <li value="africa">Africa</li>
+                        <li value="america">America</li>
+                        <li value="asia">Asia</li>
+                        <li value="europe">Europe</li>
+                        <li value="oceania">Oceania</li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="main__countries">
+                <li class="main__country">
+                    <div class="main__country-flag">
+                        <img class="main__country-flag-image" src="images/germany.svg.png" alt="Флаг">
+                    </div>
+                    <div class="main__country-description">
+                        <h2 class="main__country-title">Germany</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 81,770,900</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Europe</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Berlin</h3>
+                    </div>
+                </li>
+                <li class="main__country">
+                    <div class="main__country-flag">
+                        <img class="main__country-flag-image" src="images/usa.png" alt="Флаг">
+                    </div>
+                    <div class="main__country-description">
+                        <h2 class="main__country-title">United States of America</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 323,947,000</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Americas</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Washington, D.C.</h3>
+                    </div>
+                </li>
+                <li class="main__country">
+                    <div class="main__country-flag">
+                        <img class="main__country-flag-image" src="images/brasil.png" alt="Флаг">
+                    </div>
+                    <div class="main__country-description">
+                        <h2 class="main__country-title">Brazil</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 206,135,893</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Americas</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Brasilia</h3>
+                    </div>
+                </li>
+                <li class="main__country">
+                    <div class="main__country-flag">
+                        <img class="main__country-flag-image" src="images/island.png" alt="Флаг">
+                    </div>
+                    <div class="main__country-description">
+                        <h2 class="main__country-title">Iceland</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 334,300</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Europe</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Reykjavík</h3>
+                    </div>
+                </li>
+                <li class="main__country">
+                    <div class="main__country-flag">
+                        <img class="main__country-flag-image" src="images/afgan.png" alt="Флаг">
+                    </div>
+                    <div class="main__country-description">
+                        <h2 class="main__country-title">Afghanistan</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 27,657,145</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Asia</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Kabul</h3>
+                    </div>
+                </li>
+                <li class="main__country">
+                    <div class="main__country-flag">
+                        <img class="main__country-flag-image" src="images/aland.png" alt="Флаг">
+                    </div>
+                    <div class="main__country-description">
+                        <h2 class="main__country-title">Åland Islands</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 28,875</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Europe</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Mariehamn</h3>
+                    </div>
+                </li>
+                <li class="main__country">
+                    <div class="main__country-flag">
+                        <img class="main__country-flag-image" src="images/albania.png" alt="Флаг">
+                    </div>
+                    <div class="main__country-description">
+                        <h2 class="main__country-title">Albania</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 2,886,026</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Europe</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Tirana</h3>
+                    </div>
+                </li>
+                <li class="main__country">
+                    <div class="main__country-flag">
+                        <img class="main__country-flag-image" src="images/algeria.png" alt="Флаг">
+                    </div>
+                    <div class="main__country-description">
+                        <h2 class="main__country-title">Algeria</h2>
+                        <h3 class="main__country-population"><span>Population:</span> 40,400,000</h3>
+                        <h3 class="main__country-region"><span>Region:</span> Africa</h3>
+                        <h3 class="main__country-capital"><span>Capital:</span> Algiers</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+</body>
+
+</html>
